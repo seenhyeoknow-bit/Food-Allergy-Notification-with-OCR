@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#88efc6</color>
+    <color name="colorPrimaryDark">#51af89</color>
+    <color name="colorPrimaryBright">#aace77</color>
+    <color name="colorAccent">#3d4f58</color>
+    <color name="colorWarning">#ED00CB</color>
+    <color name="colorGray">#8C8C8C</color>
+    <color name="colorBlue1">#0DA837</color>
+    <color name="colorBlue2">#19A86F</color>
+    <color name="colorBlue3">#A8123F</color>
+    <color name="colorBlue4">#A8A828</color>
+    <color name="colorBlue5">#A85B28</color>
+    <color name="colorBlue6">#FA48BF</color>
+    <color name="colorBlue7">#FA4444</color>
+    <color name="colorBlue8">#AE64C4</color>
+    <color name="colorCalPrimary">#3F51B5</color>
+    <color name="colorCalPrimaryDark">#303F9F</color>
+    <color name="colorCalAccent">#FF4081</color>
+</resources>

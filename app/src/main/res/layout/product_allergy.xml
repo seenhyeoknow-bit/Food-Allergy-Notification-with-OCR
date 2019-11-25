@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/productBarcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:text="바코드"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="10dp"/>
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@drawable/ic_point_24dp"
+        android:drawableStart="@drawable/ic_point_24dp"
+        android:padding="10dp"
+        android:text="상품명"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="탄수화물 :"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="탄수화물함량"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/productCText"
+                android:textSize="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="단백질     :"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="단백질함량"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/productPText"
+                android:textSize="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="지방         :"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="지방함량"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/productFText"
+                android:textSize="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="제조회사 :"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="제조회사"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/productMText"
+                android:textSize="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="알레르기 :"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="알레르기정보"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/productAText"
+                android:textSize="30dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/productAlterText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:text="경고입니다!"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:background="#FFC107"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</LinearLayout>
