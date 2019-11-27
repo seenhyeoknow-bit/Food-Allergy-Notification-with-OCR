@@ -29,6 +29,9 @@ OCR을 활용한 식품 알리미
 * 사용라이브러리 : Google Cloud vision
 * 개발언어 : Java
 * 개발도구: MySQL Workbench 8.0 CE, Android Studio
+
+# 참조
+https://github.com/GoogleCloudPlatform/cloud-vision 클라우드비전 예제
 	   
 # 연락처
 신현호 : seenhyeoknow@naver.com
