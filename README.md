@@ -7,6 +7,16 @@ OCR을 활용한 식품 알리미
 보를 미리 핸드폰에 저장해놓고 핸드폰 카메라로 바코드 숫자를 OCR로인식한 후 결과를 확인하는 방식이며 안드로이드 스마트폰에서만 사용 가능합니다.
 
 # 스크린샷
-![1](https://user-images.githubusercontent.com/57863954/69715803-3ace3280-114c-11ea-8bfe-d03f4af21ff1.JPG)
+![2](https://user-images.githubusercontent.com/57863954/69715945-7668fc80-114c-11ea-9396-bf95146cdb40.JPG)
+
+![3](https://user-images.githubusercontent.com/57863954/69715958-79fc8380-114c-11ea-8c9c-83a4b7c60ea3.JPG)
+
+![4](https://user-images.githubusercontent.com/57863954/69715965-7cf77400-114c-11ea-84ac-d499897b484f.JPG)
+
+![6](https://user-images.githubusercontent.com/57863954/69715972-7ff26480-114c-11ea-9ef0-0dd4cfc79514.JPG)
+
+![7](https://user-images.githubusercontent.com/57863954/69715982-8254be80-114c-11ea-9885-19c5911681e0.JPG)
+
+
 
 
